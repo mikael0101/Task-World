@@ -1,0 +1,148 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  text-align: center;
+  background: #4a90e2;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  color: white;
+  margin-top: 1.25rem;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(6px); 
+  border-radius: 16px;
+  border: 5px solid;
+  padding: 1rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+#adicionarTarefas {
+  background-color:#4a90e2 ;
+  color: white;
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 500px;
+  height: 40px;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+button.concluido {
+  padding: 0;
+  border: none;
+  background: none;
+  width: 25px;  /* ou o tamanho desejado */
+  height: 25px;
+  border: 2px solid green;
+  border-radius: 18px;
+  display: flex;
+  align-items: flex-end;
+}
+
+button.concluido img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* ou "contain", depende do efeito que quiser */
+  display: block;
+}
+
+.tarefa-concluida {
+    text-decoration: line-through;
+}
+
+button.remover {
+  padding: 0;
+  background: none;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: flex-end;
+  border: 2px solid red;
+  border-radius: 18px;
+}
+
+button.remover img {
+  width: 100%;
+  height: 95%;
+  object-fit: contain;
+  display: block;
+}
+
+button.editar {
+  padding: 0;
+  background: none;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  border: 2px solid #4a90e2;
+  border-radius: 18px;
+  justify-content: center;
+}
+
+button.editar img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.botoes-tarefa {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  justify-content: space-around;
+  margin-top: 0.25rem;
+}
+
+h4 {
+  margin-bottom: 0px;
+}
+
+
+img {
+  width: 150px
+}
+
+input {
+  text-align: center;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 15px;
+  margin-bottom: 1.6rem;
+  width: 500px;
+  height: 40px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+ul li {
+  border: 2px solid black;
+  background-color: white;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  color: black;
+  box-shadow: none;
+  border-radius: 15px;
+  text-align: center;
+  margin-top: 1rem;
+  padding-bottom: 0.25rem;
+  padding-top: 0.25rem;
+}
+
+
+
+
